@@ -28,10 +28,7 @@
 /*------------------------------------------------------------------*/
 /* LED
  *------------------------------------------------------------------*/
-#define LEDS_NUMBER         2
-#define LED_PRIMARY_PIN     13
-#define LED_SECONDARY_PIN   14
-#define LED_STATE_ON        0
+#define LEDS_NUMBER         0
 
 /*------------------------------------------------------------------*/
 /* BUTTON
@@ -44,8 +41,8 @@
 //--------------------------------------------------------------------+
 // BLE OTA
 //--------------------------------------------------------------------+
-#define BLEDIS_MANUFACTURER    "Nordic"
-#define BLEDIS_MODEL           "PCA10100"
+#define BLEDIS_MANUFACTURER    "Erabec"
+#define BLEDIS_MODEL           "RX"
 
 //--------------------------------------------------------------------+
 // USB
@@ -54,8 +51,8 @@
 #define USB_DESC_UF2_PID       0x521F
 #define USB_DESC_CDC_ONLY_PID  0x521F
 
-#define UF2_PRODUCT_NAME    "Nordic nRF52833 DK"
-#define UF2_BOARD_ID        "nRF52833-pca10100-v1"
-#define UF2_INDEX_URL       "https://www.nordicsemi.com/Software-and-Tools/Development-Kits/nRF52833-DK"
+#define UF2_PRODUCT_NAME    "ErabecRX"
+#define UF2_BOARD_ID        "ErabecRX"
+#define UF2_INDEX_URL       "https://erabec.ca"
 
 #endif // PCA10100_H
